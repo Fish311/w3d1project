@@ -12,6 +12,8 @@ body {
     position: fixed;
     z-index: 2;
     height: 40px;
+    display: flex;
+    justify-content: space-between;
   }
   
   #nav a {
@@ -24,23 +26,24 @@ body {
       padding-left: 20px;
   }
   #navtitle {
-      float: left;
       padding-top: 10px;
   }
   #navlist {
-      float: right;
       text-decoration: none;
       padding-top: 10px;
   }
   .cardscontainer {
       max-width: 1500px;
       margin: 0 auto;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
   #dashcontainer {
     border: orange solid;
     background-color: white;
     display: inline-block;
-    float: left;
     margin: 50px 20px;
     width: 300px;
     height: 525px;
@@ -50,7 +53,6 @@ body {
     border: orange solid;
     background-color: white;
     display: inline-block;
-    float: left;
     margin: 50px 20px;
     width: 300px;
     height: 525px;
@@ -60,7 +62,6 @@ body {
     border: orange solid;
     background-color: white;
     display: inline-block;
-    float: left;
     margin: 50px 20px;
     width: 300px;
     height: 525px;
@@ -70,7 +71,6 @@ body {
     border: orange solid;
     background-color: white;
     display: inline-block;
-    float: left;
     margin: 50px 20px;
     width: 300px;
     height: 525px;
